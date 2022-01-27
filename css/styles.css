@@ -1,0 +1,48 @@
+/* Name of project */
+/* --- General styles --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-family: 'Playfair Display', serif;
+/*font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+body {
+  background:rgba(52, 58, 64, .15);
+}
+
+
+/*In this section of the stylesheet we are providing default styling for the type on the site, setting up a default style for data tables and lists and so on. 
+example
+body {
+  Structure
+
+    height
+    width
+    margins
+    padding
+    overflow
+
+  Skin
+
+    colors
+    fonts
+    shadows
+    gradients
+}
+, p, ul, links, lists....*/
+
+ 
+
+
+
+
+/* --- Header and Main Nav --- */
+
+
+
+ /* --- UTILITIES --- */
+/*After this section, we could define a few utility classes, for example, a class that removes the default list style for lists we're going to display as flex items or in some other way. If you have a few styling choices you know you will want to apply to lots of different elements, they can be put in this section. */
