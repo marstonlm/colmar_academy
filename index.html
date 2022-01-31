@@ -23,35 +23,102 @@
     <header>
       <h1>Colmar Academy</h1>
       <nav>
-        <ul>
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 2</a></li>
-          <li><a href="#">Link 3</a></li>
-        </ul>
-      </nav>
+				<ul>
+					<li><a href="#">On Campus</a></li>
+					<li><a href="#">Online</a></li>
+					<li><a href="#">Sign in</a></li>
+				</ul>
+			</nav>
     </header>
     <div class="container">
-      <div class="row">
+      <!-- START Row 1-->
+      <div id="row_one" class="row">
+        <h1>Row One</h1>
         <div class="col">
-
+          <p>Column One</p>
+        </div>
+        <div class="col">
+          <p>Column Two</p>
         </div>
       </div>
+      <!-- END Row 1-->
+
+      <!-- START Row 2 -->
+      <div id="row_two" class="row">
+        <h1>Row Two</h1>
+        <div class="col">
+          <h2>Column One</h2>
+        </div>
+        <div class="col">
+          <h2>Column Two</h2>
+          <div class="row">
+            <div class="col">
+              <h3>Aside Top</h3>
+              <p>asdflkajsdf</p>
+            </div>
+            <div class="col"></div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h3>Aside Middle</h3>
+              <p>asdflkajsdf</p>
+            </div>
+            <div class="col"></div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h3>Aside Bottom</h3>
+              <p>asdflkajsdf</p>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </div>
+      <!-- END Row 2-->
+
+      <!-- START Row 3 -->
+      <div id="row_three" class="row">
+        <h1>Row Three</h1>
+        <div class="col">
+          <p>Column One</p>
+        </div>
+        <div class="col">
+          <p>Column Two</p>
+        </div>
+      </div>
+      <!-- END Row 3-->
+
+      <!-- START Row 4 -->
+      <div id="row_four" class="row">
+        <h1>Row Four</h1>
+        <div class="col">          
+          <h2>Column One</h2>
+          <p>asdfasdfasdf</p>         
+        </div>
+        <div class="col">          
+          <h2>Column Two</h2>        
+          <p>asdfklasdl; fasld fj</p> 
+        </div>
+      </div>
+      <!-- END Row 4-->
 
     </div>
+    <!-- END Container -->
+
     <footer>
       <p>© 2016 Colmar Academy. All rights reserved</p>
-      <ul>
+      <ul class="footer-inner">
         <li>Copyright &copy;
           <?php 
-          $date_current = date('Y');
-          $date_created = 2022;
-          if ($date_current == $date_created) {
-            echo $date_current;
+            $date_current = date('Y');
+            $date_created = 2022;
+            if ($date_current == $date_created) {
+              echo $date_current;
 
-          } else {
-            echo ''.$date_created.' - '.$date_current.'';
-          }
-        ?>
+            } else {
+              echo ''.$date_created.' - '.$date_current.'';
+            }
+          ?>
         </li>
         <li>All Rights Reserved</li>
         <li><a href="#">Terms of use</a></li>
